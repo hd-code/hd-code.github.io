@@ -1,0 +1,13 @@
+locale: de_DE
+title: Hannes Dröse
+description: Die persönliche Webseite von Hannes Dröse – Software Entwickler und Researcher mit Fokus auf daten-getriebenen Anwendungen.
+logo: /assets/logo.svg
+social:
+  name: Hannes Dröse
+  links:
+    - https://github.com/hd-code
+    - https://www.linkedin.com/in/hannes-dr%C3%B6se-786794205/
+    - https://orcid.org/0009-0005-8972-2994
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

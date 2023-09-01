@@ -1,2 +1,12 @@
-# OSs
+/_site/
+/.jekyll-cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# macOS
 .DS_Store
+
+# Windows
+Thumbs.db

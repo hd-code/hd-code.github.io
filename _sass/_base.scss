@@ -1,0 +1,49 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+code, kbd, pre, samp { font-family: monospace, monospace; }
+
+hr {
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    height: 0;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+small { font-size: 80%; }
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sub { bottom: -0.25em; }
+sup { top: -0.5em; }
+
+ol, ul {
+    &[class] {
+        list-style: none;
+    }
+    &:not([class]) {
+        padding-left: 1em;
+    }
+}
+
+input, select, textarea {
+    font: inherit;
+}

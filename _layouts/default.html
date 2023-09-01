@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="{{ site.locale }}">
+<head>
+    <base href="{{ site.url }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% seo %}
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    {% include header.html %}
+    {{ content | replace: '<a href="http', '<a target="_blank" href="http' }}
+    {% include footer.html %}
+</body>
+</html>
