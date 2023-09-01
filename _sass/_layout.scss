@@ -1,0 +1,68 @@
+@import "variables";
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    background-color: $color-main;
+    color: $color-main-lighter;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+
+    &__logo {
+        width: $header-height / 7 * 10;
+    }
+}
+
+.main-nav {
+    &__link {
+        display: inline-block;
+        padding: .5em;
+        text-decoration: none;
+
+        &:hover, &__active {
+            text-decoration: underline;
+        }
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__list-item {
+        position: relative;
+        white-space: nowrap;
+    }
+}
+
+.main-content {
+    flex: 1 0 auto;
+    padding: 2em;
+
+    @each $value in (600px, 750px, 1200px) {
+        @media (min-width: $value) {
+            padding: 2em calc((100% - $value) / 2 + 2em);
+        }
+    }
+}
+
+.main-footer {
+    background-color: $color-neutral;
+    color: $color-neutral-light;
+    padding: 1em;
+    text-align: center;
+}
+
+@media print {
+    .main-header, .main-footer {
+        display: none;
+    }
+
+    .main-content {
+        padding: 0;
+    }
+}

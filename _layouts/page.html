@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{% assign extension = page.name | slice: -3, 3 %}
+<main class="main-content {{page.class}} {% if extension == '.md' %}markdown{% endif %}">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+</main>

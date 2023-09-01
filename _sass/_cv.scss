@@ -1,0 +1,140 @@
+.cv {
+    // portrait
+    h2:nth-of-type(1) + p img {
+        display: block;
+        border-radius: 50%;
+        max-width: 12em;
+        margin: auto;
+
+        @media (min-width: 600px) {
+            float: right;
+        }
+    }
+
+    // timeline
+    h2:nth-of-type(2) {
+        $gap-left: 1.5rem;
+        $gap-line: -1rem;
+
+        // all elements between headings
+        & ~ *:not(h2, h2:nth-of-type(5) ~ *) {
+            margin-left: $gap-left;
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                display: block;
+                top: -.5em;
+                left: $gap-line;
+                height: calc(100% + .5em);
+                border-left: .1em solid $color-main-light;
+            }
+        }
+
+        // entry headings
+        & ~ h4:not(h2:nth-of-type(5) ~ *) {
+            &::after {
+                content: "";
+                position: absolute;
+                background-color: $color-main-lighter;
+                border: .1em solid $color-main-light;
+                border-radius: 50%;
+                font-size: .8rem;
+                height: 1em;
+                width: 1em;
+                top: .1rem;
+                left: $gap-line - .35rem;
+            }
+
+            em {
+                display: block;
+                font-size: .8rem;
+                font-style: normal;
+                color: $color-main-light;
+            }
+
+            a {
+                display: block;
+                font-size: .8rem;
+                color: $color-main-darker;
+                font-weight: normal;
+            }
+        }
+    }
+
+    // skills
+    .skill-lists {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 -1em;
+
+        .skill-list {
+            margin: .5em 1em 0;
+
+            dl {
+                $list-width: 18em;
+
+                margin: 0;
+                padding: 0;
+                order: 2;
+                display: block;
+                width: $list-width;
+
+                dt {
+                    width: $list-width - 5em;
+                    float: left;
+                }
+
+                dd {
+                    color: $color-main-light;
+                    text-align: end;
+
+                    small {
+                        color: $color-main-darker;
+                        display: block;
+                        position: relative;
+                        text-align: start;
+                        top: -.3em;
+                    }
+                }
+            }
+        }
+    }
+    h2:nth-of-type(6) ~ dl {
+        $list-width: 18em;
+
+        margin: 0;
+        padding: 0;
+        order: 2;
+        display: block;
+        width: $list-width;
+
+        dt {
+            width: $list-width - 5em;
+            float: left;
+        }
+
+        dd {
+            color: $color-main-light;
+
+            small {
+                color: $color-main-darker;
+                display: inline-block;
+                position: relative;
+                top: -.3em;
+            }
+        }
+    }
+
+    // signature
+    .signature {
+        margin-top: 2em;
+
+        img {
+            display: block;
+            max-width: 12em;
+        }
+    }
+}

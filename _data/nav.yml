@@ -1,0 +1,11 @@
+- name: Home
+  link: /
+- name: Lebenslauf
+  link: /cv/
+# - name: Projekte
+#   link: /projects/
+#   children:
+#     - name: Chamäleon Schach
+#       link: /projects/chameleon-chess/
+# - name: Publikationen
+#   link: /publications/

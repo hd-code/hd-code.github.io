@@ -1,0 +1,20 @@
+<nav class="main-nav">
+    <ul class="main-nav__list">
+        {% for item in site.data.nav %}
+        <li class="main-nav__list-item">
+            <a class="main-nav__link" href="{{ item.link }}" class="">
+                {{ item.name }}
+            </a>
+            {% if item.children %}
+            <input type="checkbox" id="{{ item.link }}" class="main-nav__toggle">
+            <label for="{{ item.link }}" class="main-nav__toggle-button">V</label>
+            <ul class="main-nav__sublist">
+                {% for child in item.children %}
+                    <li class="main-nav__sublist-item"><a class="main-nav__link" href="{{ child.link }}">{{ child.name }}</a></li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
