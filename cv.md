@@ -49,13 +49,15 @@ Forschung und Entwicklung von Tools zur effizienten Speicherung und Verarbeitung
 
 #### *Nov 2021 – Mai 2022* **Masterand** [adesso SE, Jena](https://www.adesso.de/)
 
-Entwicklung eines neuartigen Clustering-Algorithmus für Produktdaten in PIM-Systemen (Masterarbeit)
+Entwicklung eines neuartigen Clustering-Algorithmus für Produktdaten in PIM-Systemen (Masterarbeit)<br>
+Umsetzung in Python mit Jupyter Notebooks, scikit-learn, numpy und pandas
 
 #### *Mai 2020 – Sep 2021* **Werkstudent Full-Stack-Entwicklung** [plazz AG, Erfurt](https://plazz.ag/)
 
 Entwicklung im Back- und Frontend von <https://polario.app/>
 - Backend: Microservice-Architektur mit Services in Golang und MongoDBs als Datenbanken
 - Frontend: SPA in Angular, RxJS, Jest
+- Tools: Git, GitLab-Pipelines, Jira, Confluence, Figma
 
 #### *Sep 2018 – Feb 2020* **Studentische Hilfskraft** [Fachhochschule Erfurt](https://ai.fh-erfurt.de/)
 
@@ -78,7 +80,9 @@ z.B. <https://pfarrbereich-elxleben.de> oder <https://fremde-werden-freunde.de/>
 
 #### *Jan 2012 – Dez 2014* **Nebengewerblicher Veranstaltungstechniker**
 
-tontechnische Betreuung kleinerer Konzerte & Vermietung von Tontechnik
+- Nebengewerbe während der Schulzeit
+- tontechnische Betreuung kleinerer Konzerte, Konferenzen und weiteren Veranstaltungen
+- Vermietung von Tontechnik
 
 ## Akademischer Werdegang
 
