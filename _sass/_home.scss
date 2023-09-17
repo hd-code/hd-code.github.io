@@ -1,9 +1,10 @@
-@import "variables";
+@use "colors";
+@use "layout";
 
 .home-hero {
     align-items: center;
     display: flex;
-    flex-basis: calc(100% - $header-height);
+    flex-basis: calc(100% - layout.$header-height);
     flex-direction: column-reverse;
     flex-grow: 1;
     position: relative;
@@ -20,25 +21,24 @@
     }
     &__image {
         animation: appear 1s, move-in-left 1s;
-        animation-delay: .2s;
+        animation-delay: .5s;
         animation-fill-mode: both;
         align-self: flex-start;
         bottom: 0;
+        max-width: min(calc(100% - 4em), 35em);
         max-height: 90%;
-        max-width: 80%;
-        max-width: calc(100% - 4em);
         position: absolute;
         z-index: -1;
     }
     &__text {
         animation: appear 1s, move-in-right 1s;
-        animation-delay: .2s;
+        animation-delay: .5s;
         animation-fill-mode: both;
-        color: $color-main-lighter;
+        color: colors.$main-lighter;
         text-align: center;
-        margin-bottom: 20vh;
+        margin-bottom: 10%;
 
-        h1 { font-size: 2.5em; }
+        h1 { font-size: 2.2em; }
         p { font-size: 1.5em; }
     }
 }

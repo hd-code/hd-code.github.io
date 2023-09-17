@@ -21,7 +21,7 @@ Adresse
 : Wasunger Str. 45, 99092 Erfurt
 
 E-Mail
-: <mailto:office.hd@gmx.de>
+: <mailto:somemail@mail.com>
 
 Telefon
 : insert_phone
@@ -49,15 +49,17 @@ Forschung und Entwicklung von Tools zur effizienten Speicherung und Verarbeitung
 
 #### *Nov 2021 – Mai 2022* **Masterand** [adesso SE, Jena](https://www.adesso.de/)
 
-Entwicklung eines neuartigen Clustering-Algorithmus für Produktdaten in PIM-Systemen (Masterarbeit)
+Entwicklung eines neuartigen Clustering-Algorithmus für Produktdaten in PIM-Systemen (Masterarbeit)<br>
+Umsetzung in Python mit Jupyter Notebooks, scikit-learn, numpy und pandas
 
 #### *Mai 2020 – Sep 2021* **Werkstudent Full-Stack-Entwicklung** [plazz AG, Erfurt](https://plazz.ag/)
 
 Entwicklung im Back- und Frontend von <https://polario.app/>
 - Backend: Microservice-Architektur mit Services in Golang und MongoDBs als Datenbanken
 - Frontend: SPA in Angular, RxJS, Jest
+- Tools: Git, GitLab-Pipelines, Jira, Confluence, Figma
 
-#### *Sep 2018 – Feb 2020* **Studentische Hilfskraft** [Fachhochschule Erfurt](https://ai.fh-erfurt.de/)
+#### *Sep 2018 – Feb 2020* **Studentische Hilfskraft** [Fachhochschule Erfurt](https://www.ai.fh-erfurt.de/)
 
 - Dozent und Übungsleiter im Brückenkurs Logik für neue Studierende
 - Tutorien für die Studierenden in den Modulen Datenbanken 1 & 2
@@ -66,7 +68,7 @@ Entwicklung im Back- und Frontend von <https://polario.app/>
 
 ## Nebentätigkeiten
 
-#### *seit Apr 2023* **Lehrbeauftragter** [Fachhochschule Erfurt](https://ai.fh-erfurt.de/)
+#### *seit Apr 2023* **Lehrbeauftragter** [Fachhochschule Erfurt](https://www.ai.fh-erfurt.de/)
 
 Lehrauftrag für das Bachelormodul Softwaretechnik 2<br>
 Themen: Prinzipien guter Softwareentwicklung, Design Principles, Software Architektur, Design Patterns, Coding Conventions, Testing, Release Management
@@ -78,18 +80,20 @@ z.B. <https://pfarrbereich-elxleben.de> oder <https://fremde-werden-freunde.de/>
 
 #### *Jan 2012 – Dez 2014* **Nebengewerblicher Veranstaltungstechniker**
 
-tontechnische Betreuung kleinerer Konzerte & Vermietung von Tontechnik
+- Nebengewerbe während der Schulzeit
+- tontechnische Betreuung kleinerer Konzerte, Konferenzen und weiteren Veranstaltungen
+- Vermietung von Tontechnik
 
 ## Akademischer Werdegang
 
-#### *Okt 2020 – Mai 2022* **M.Sc. Angewandte Informatik** [Fachhochschule Erfurt](https://ai.fh-erfurt.de/)
+#### *Okt 2020 – Mai 2022* **M.Sc. Angewandte Informatik** [Fachhochschule Erfurt](https://www.ai.fh-erfurt.de/)
 
 - Abschlussnote: 1,0
 - Masterarbeit: Generisches Clustern hochkomplexer Produktdaten
 - Stipendium: Studienstiftung des deutschen Volkes
 - Sonstiges: Studentisches Mitglied im Fakultätsrat
 
-#### *Okt 2017 – Sep 2020* **B.Sc. Angewandte Informatik** [Fachhochschule Erfurt](https://ai.fh-erfurt.de/)
+#### *Okt 2017 – Sep 2020* **B.Sc. Angewandte Informatik** [Fachhochschule Erfurt](https://www.ai.fh-erfurt.de/)
 
 - Abschlussnote: 1,1
 - Bachelorarbeit: Implementierung eines Computergegners für Chamäleon Schach nach heuristischem Ansatz
