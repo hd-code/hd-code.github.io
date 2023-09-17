@@ -8,6 +8,7 @@ social:
     - https://github.com/hd-code
     - https://www.linkedin.com/in/hannes-dr%C3%B6se-786794205/
     - https://orcid.org/0009-0005-8972-2994
+theme: ''
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
