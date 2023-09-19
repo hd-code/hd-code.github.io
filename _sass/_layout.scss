@@ -1,23 +1,18 @@
-@use "sass:math";
-@use "colors";
-
-$header-height: 3em;
-
 body {
     display: flex;
     flex-direction: column;
 }
 
 .main-header {
-    background-color: colors.$main;
-    color: colors.$main-lighter;
+    background-color: $color-main;
+    color: $color-main-lighter;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1em;
 
     &__logo {
-        width: math.div($header-height * 10, 7);
+        width: $header-height * 10 / 7;
     }
 }
 
@@ -48,14 +43,14 @@ body {
 
     @each $content-width in (600px, 750px, 1000px, 1250px) {
         @media (min-width: $content-width) {
-            padding: 2em calc((100% - $content-width) / 2 + 2em);
+            padding: 2em calc((100% - #{$content-width}) / 2 + 2em);
         }
     }
 }
 
 .main-footer {
-    background-color: colors.$neutral;
-    color: colors.$neutral-light;
+    background-color: $color-neutral;
+    color: $color-neutral-light;
     padding: 1em;
     text-align: center;
 }

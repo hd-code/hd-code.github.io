@@ -146,9 +146,6 @@ C#, PHP
 <div class="skill-list" markdown="1">
 ### Tools & Programme
 
-Visual Studio Code
-: ★★★★★
-
 Git, Jupyter Notebook
 : ★★★★☆
 
