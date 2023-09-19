@@ -1,8 +1,6 @@
-@use "colors";
-
 body {
-    background-color: colors.$main-lighter;
-    color: colors.$main-darker;
+    background-color: $color-main-lighter;
+    color: $color-main-darker;
     font-family: Verdana, sans-serif;
     hyphens: auto;
     line-height: 1.3;
@@ -26,7 +24,7 @@ a {
     }
 
     a {
-        color: colors.$main-light;
+        color: $color-main-light;
         text-decoration: underline;
     }
 

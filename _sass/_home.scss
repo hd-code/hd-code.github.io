@@ -1,10 +1,7 @@
-@use "colors";
-@use "layout";
-
 .home-hero {
     align-items: center;
     display: flex;
-    flex-basis: calc(100% - layout.$header-height);
+    flex-basis: calc(100% - #{$header-height});
     flex-direction: column-reverse;
     flex-grow: 1;
     position: relative;
@@ -34,7 +31,7 @@
         animation: appear 1s, move-in-right 1s;
         animation-delay: .5s;
         animation-fill-mode: both;
-        color: colors.$main-lighter;
+        color: $color-main-lighter;
         text-align: center;
         margin-bottom: 10%;
 
