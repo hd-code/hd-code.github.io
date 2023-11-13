@@ -11,3 +11,8 @@ social:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+defaults:
+  - scope:
+      path:            googleeb052a2cd96194f8.html
+    values:
+      sitemap:         false
