@@ -13,6 +13,6 @@ plugins:
   - jekyll-sitemap
 defaults:
   - scope:
-      path:            googleeb052a2cd96194f8.html
+      path: googleeb052a2cd96194f8.html
     values:
-      sitemap:         false
+      sitemap: false
