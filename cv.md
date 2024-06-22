@@ -53,7 +53,7 @@ Forschung und Entwicklung von Tools zur effizienten Speicherung und Verarbeitung
 
 #### *Nov 2021 – Mai 2022* **Masterand** [adesso SE, Jena](https://www.adesso.de/)
 
-Entwicklung eines neuartigen Clustering-Algorithmus für Produktdaten in PIM-Systemen (Masterarbeit)<br>
+Entwicklung eines Clustering-Algorithmus für Produktdaten in PIM-Systemen (Masterarbeit)<br>
 Umsetzung in Python mit Jupyter Notebooks, scikit-learn, numpy und pandas
 
 #### *Mai 2020 – Sep 2021* **Werkstudent Full-Stack-Entwicklung** [plazz AG, Erfurt](https://plazz.ag/)
