@@ -40,12 +40,16 @@ Github
 
 ## Berufserfahrung
 
-#### *seit Okt 2022* **Wissenschaftlicher Mitarbeiter** [DLR Institut für Datenwissenschaften](https://www.dlr.de/dw/)
+#### *seit Jan 2024* **Backend-Entwickler Golang** [CHECK24 Vergleichsportal Explorer GmbH, Erfurt](https://jobs.check24.de/de/standorte/)
+
+Backend-Entwicklung in Golang für ein neues CHECK24-Produkt im Reisebereich.
+
+#### *Okt 2022 – Dez 2023* **Wissenschaftlicher Mitarbeiter** [DLR Institut für Datenwissenschaften, Jena](https://www.dlr.de/dw/)
 
 Forschung und Entwicklung von Tools zur effizienten Speicherung und Verarbeitung großer multi-dimensionaler Arraydaten (auch Rasterdaten oder Scientific Datacubes genannt)
 - Evaluation bestehender und neuer Systeme und Ansätze
-- Benchmarking (aktuell: Entwicklung eines TPC-ähnlichen Benchmarks für Rasterdaten-Systeme)
-- Versuch der Entwicklung eines Data Lakehouse-Systems für Rasterdaten (Rollen: Software Architekt, DevOps- und Backend-Entwickler)
+- Benchmarking
+- Versuch der Entwicklung eines Data Lakehouse-Systems für Rasterdaten
 
 #### *Nov 2021 – Mai 2022* **Masterand** [adesso SE, Jena](https://www.adesso.de/)
 
@@ -73,7 +77,7 @@ Entwicklung im Back- und Frontend von <https://polario.app/>
 Lehrauftrag für das Bachelormodul Softwaretechnik 2<br>
 Themen: Prinzipien guter Softwareentwicklung, Design Principles, Software Architektur, Design Patterns, Coding Conventions, Testing, Release Management
 
-#### *seit Aug 2016* **Nebengewerblicher Webdesigner & -entwickler**
+#### *Aug 2016 – Feb 2020* **Nebengewerblicher Webdesigner & -entwickler**
 
 Umsetzung kleinerer Webseiten vorwiegend in WordPress<br>
 z.B. <https://pfarrbereich-elxleben.de> oder <https://fremde-werden-freunde.de/>
@@ -131,10 +135,10 @@ Norwegisch
 JavaScript/TypeScript
 : ★★★★★
 
-Python, SQL
+Golang, SQL
 : ★★★★☆
 
-Golang, Shell
+Python, Shell
 : ★★★☆☆
 
 C/C++, Java, Kotlin
@@ -146,14 +150,17 @@ C#, PHP
 <div class="skill-list" markdown="1">
 ### Tools & Programme
 
-Git, Jupyter Notebook
+Docker, Git
 : ★★★★☆
 
-Docker, Gitlab CI/CD
+Jira, Jupyter Notebook
 : ★★★☆☆
 
-Figma, Jira
+ElasticSearch, Gitlab CI/CD, MySQL
 : ★★☆☆☆
+
+Bitbucket Pipelines
+: ★☆☆☆☆
 </div>
 </div>
 
