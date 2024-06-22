@@ -156,7 +156,10 @@ Docker, Git
 Jira, Jupyter Notebook
 : ★★★☆☆
 
-ElasticSearch, Gitlab CI/CD, MySQL
+ElasticSearch, MySQL
+: ★★☆☆☆
+
+Gitlab CI/CD
 : ★★☆☆☆
 
 Bitbucket Pipelines
