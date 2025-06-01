@@ -1,7 +1,7 @@
-cd $(dirname "$0")
+cd "$(dirname "$0")"
 
-CONTAINER_NAME='hd-github-page'
-IMAGE='bretfisher/jekyll-serve:stable-20230715-2119a31'
+CONTAINER_NAME='hd-github-pages'
+IMAGE='bretfisher/jekyll-serve:stable-20240615-2119a31'
 PORT=4000
 
 if docker container inspect $CONTAINER_NAME; then
